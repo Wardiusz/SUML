@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import torch
 from transformers import M2M100Tokenizer, M2M100ForConditionalGeneration
-import st.iframe as components
+import streamlit.components.v1 as components
 
 st.title("Aplikacja NLP z Streamlit")
 
