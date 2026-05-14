@@ -27,7 +27,7 @@ st.subheader("Opcja *'Wydźwięk emocjonalny tekstu (ang)'*")
 st.write("Po wpisaniu tekstu naciśnij kombinację ***Ctrl+Enter*** lub przycisk ***Analizuj*** aby uzyskać wynik który powie o wydźwięku danego tekstu i jego procent zgodności.")
 
 st.subheader("Opcja *'Tłumaczenie (ang -> niem)'*")
-st.write("Po wpisaniu tekstu naciśnij przycisk ***Tłumacz*** aby zobaczyć wynik tłumaczenia tekstu z angielskiego na niemiecki.")
+st.write("Po wpisaniu tekstu naciśnij kombinację ***Ctrl+Enter*** lub przycisk ***Tłumacz*** aby zobaczyć wynik tłumaczenia tekstu z angielskiego na niemiecki.")
 
 @st.cache_resource
 def load_translator():
